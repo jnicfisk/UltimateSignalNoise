@@ -52,6 +52,7 @@ TreeCollapse.signal.noise(freqs=c(0.34,0.16,0.32,0.18),subratevector=c(5.26,8.15
 
 The stable package 1.0 version will be released upon completeion of the following:
 - Integration of IQTREE for sitewise rate calculation
+- Inclusion of ability to stipulate input parameters in a design file, rather than R directly.
 - Restructuring of data structure to rely on a custom S4 R object that can be converted between ape/phylo formated trees to prevent crashing due to quirks in those structures
 
 Future versions will include:
