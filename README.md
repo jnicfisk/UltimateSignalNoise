@@ -10,6 +10,6 @@ This gif demonstrates the process (convienently sampling the best next gene/taxa
 
 Shannon Tree Collapse             |  Sampling Matrix
 :-------------------------:|:-------------------------:
-![collapse](https://github.com/jnickfisk/UltimateSignalNoise/blob/main/collapse2.gif)  |  ![matrix](https://github.com/jnickfisk/UltimateSignalNoise/blob/main/collapse1.gif)
+![collapse](https://github.com/jnickfisk/UltimateSignalNoise/blob/main/doc_images/collapse2.gif)  |  ![matrix](https://github.com/jnickfisk/UltimateSignalNoise/blob/main/doc_images/collapse1.gif)
 !
 
