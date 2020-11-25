@@ -5,7 +5,7 @@ Additionally, this is not yet a stable release. If you need a stable release, pl
 
 UltimateSignalNoise is a proactive experimental design tool in R. An overview of the workflow is provided below.
 
-[Workflow](https://github.com/jnickfisk/UltimateSignalNoise/blob/main/doc_images/Aim%204%402x.png)
+![Workflow](https://github.com/jnickfisk/UltimateSignalNoise/blob/main/doc_images/Aim%204%402x.png)
 
 
 
