@@ -19,7 +19,7 @@ UltimateSignalNoise is a phylogenetic experimental design tool in R. An overview
 
 ![Workflow](https://github.com/jnickfisk/UltimateSignalNoise/blob/main/doc_images/Aim%204%402x.png)
 
-##Purpose
+## Purpose
 Phylogenetic trees represent an amalgam of interconnected hypotheses, only some of which are of interest to particular research programs. Determining the optimal gene-taxa sampling schema prospectively allows for hypothesis-driven data collection and retrospective filtering to maximize the probability of achieving sufficient power to resolve specific hypotheses. UltimateSignalNoise aims to use phylogenetic signal/Q\*RP-based methods to provide users with an optimal sampling schema to best achieve power to address their specific hypotheses related to:
 - differentiating the power of different genes and phylogenetic characters
 - weighing the relative utility of increased taxonomic versus character sampling 
@@ -28,14 +28,13 @@ Phylogenetic trees represent an amalgam of interconnected hypotheses, only some 
 
 *In short, UltimateSignalNoise is an implementation of the aforementioned theoretical tools to guide phylogenetic experimental design using advances to the phylogenetic signal framework to iteratively rank-order gene-taxa sampling schema and to ensure proposed sampling schema reach the desired power to answer specific phylogenetic hypotheses.*
 
-This iterative process is represented in the following gifs. 
- The grey cells represent currently examined taxa-gene pairs (convienently sampling the best next gene/taxa pair in this example), but each unresolved cell (white) will be calculated unless masked. 
+This iterative process is represented in the following gifs where the grey cells represent currently examined taxa-gene pairs (convienently sampling the best next gene/taxa pair in this example), but each unresolved cell (white) will be calculated unless masked. 
 
 Shannon Tree Collapse             |  Sampling Matrix
 :-------------------------:|:-------------------------:
 ![collapse](https://github.com/jnickfisk/UltimateSignalNoise/blob/main/doc_images/collapse2.gif)  |  ![matrix](https://github.com/jnickfisk/UltimateSignalNoise/blob/main/doc_images/collapse1.gif)
 
-
+## Guide 
 A more robust user guide is forthcoming. For now, the program can be run by getting your data loaded into R in the following data types/structures:
 - Base frequencies | freqs | numeric vector (length of 4) (T,C,A,G) 
 - Substitution Parameters | subratevector | numberic vector (length of 6) (a,b,c,d,e,f)
@@ -51,7 +50,7 @@ and invoking
 TreeCollapse.signal.noise(freqs=c(0.34,0.16,0.32,0.18),subratevector=c(5.26,8.15,1,2.25,3.16,5.44),ratevector=c(rep(0.05,20),rep(0.1,10),rep(0.05,20)),guideTree=guideT, empiricalTree=empricialT, alnFile="aln.fasta", internode=c(9,10))
 ```
 
-The package 1.0 version will be released upon completeion of the following:
+The stable package 1.0 version will be released upon completeion of the following:
 - Integration of IQTREE for sitewise rate calculation
 - Restructuring of data structure to rely on a custom S4 R object that can be converted between ape/phylo formated trees to prevent crashing due to quirks in those structures
 
