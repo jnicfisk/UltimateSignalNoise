@@ -1,6 +1,6 @@
 # UltimateSignalNoise
-This repositiory to be populated by the UltimateSignalNoise R package on 11/24/2020 (EST) until hosting on Bioconductor is prepared. 
-
+This repositiory is a temporary repository until package is ready to be hosted on CRAN/Bioconductor
+Additionally, this is not yet a stable release. If you need a stable release, please use [PhyInformR](https://cran.r-project.org/src/contrib/Archive/PhyInformR/PhyInformR_1.0.tar.gz).
 
 
 
