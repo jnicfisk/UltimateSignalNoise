@@ -1,7 +1,7 @@
 # UltimateSignalNoise
 This repositiory is a temporary repository until package is ready to be hosted on CRAN/Bioconductor.
 
-Additionally, this is not yet a stable release. If you need a stable release, please use [PhyInformR](https://cran.r-project.org/src/contrib/Archive/PhyInformR/PhyInformR_1.0.tar.gz). Usage [manual](https://carolinafishes.github.io/software/phyinformR/) available.
+Additionally, this is not yet a stable release. If you need a stable release, please use [PhyInformR](https://cran.r-project.org/src/contrib/Archive/PhyInformR/PhyInformR_1.0.tar.gz). Original [paper](https://bmcevolbiol.biomedcentral.com/articles/10.1186/s12862-016-0837-3) | Usage [manual](https://carolinafishes.github.io/software/phyinformR/) available.
 
 UltimateSignalNoise is a proactive experimental design tool in R. An overview of the workflow is provided below.
 
